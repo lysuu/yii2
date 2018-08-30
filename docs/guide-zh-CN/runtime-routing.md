@@ -339,7 +339,7 @@ echo Url::previous();
 ### 命名参数 <span id="named-parameters"></span>
 
 一条URL规则可以对匹配模式中的参数设置格式为 `<ParamName:RegExp>` 的命名，
-其中 `ParamName` 指定参数的名称，`RegExp` 是可选的用来匹配参数值得正则表达式。
+其中 `ParamName` 指定参数的名称，`RegExp` 是可选的用来匹配参数值的正则表达式。
 如果没有设置 `RegExp`，表示参数值为不包含 `/` 的字符串。
 
 
