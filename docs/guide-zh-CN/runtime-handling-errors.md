@@ -72,7 +72,7 @@ throw new NotFoundHttpException();
 
 [[yii\web\ErrorHandler|error handler]] 错误处理器默认使用两个[视图](structure-views.md)显示错误:
 
-* `@yii/views/errorHandler/error.php`: 显示不包含函数调用栈信息的错误信息是使用，
+* `@yii/views/errorHandler/error.php`: 显示不包含函数调用栈信息的错误信息时使用，
   当`YII_DEBUG` 为 false时，所有错误都使用该视图。
 * `@yii/views/errorHandler/exception.php`: 显示包含函数调用栈信息的错误信息时使用。
 
